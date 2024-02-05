@@ -1,8 +1,19 @@
 {
-  "workbench.colorTheme": "Origamid-next",
+  "workbench.colorTheme": "Origamid Next",
+
+  /*Extenção do diego - Rocketseat */
   "workbench.iconTheme": "symbols",
-  "editor.fontSize": 16,
-  "editor.lineHeight": 1.75,
+  "symbols.hidesExplorerArrows": false,
+  "editor.fontFamily": "jets-brains regular",
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "workbench.editor.labelFormat": "medium",
+  "explorer.compactFolders": false,
+
+  /*origamid-config*/
+  "editor.font-Size": 14.5,
+  "editor.lineHeight": 1.9,
   "editor.tabSize": 2,
   "workbench.startupEditor": "newUntitledFile",
   "editor.wordWrap": "on",
@@ -14,7 +25,6 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "editor.formatOnSave": true,
-   "symbols.hidesExplorerArrows": true
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   "[html]": {
@@ -28,6 +38,6 @@
     "editor.bracketPairColorization.enabled": false,
     "color-highlight.markerType": "background",
     "editor.colorDecorators": true
-  },
- 
+  }
 }
+
