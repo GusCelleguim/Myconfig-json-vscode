@@ -1,6 +1,6 @@
 {
-  "workbench.colorTheme": "Origamid Next",
-  "workbench.iconTheme": "origamid-next-icons",
+  "workbench.colorTheme": "Origamid-next",
+  "workbench.iconTheme": "symbols",
   "editor.fontSize": 16,
   "editor.lineHeight": 1.75,
   "editor.tabSize": 2,
@@ -14,16 +14,20 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "editor.formatOnSave": true,
-  "html.format.wrapAttributes": "auto",
-  "html.format.wrapLineLength": 0,
-  "html.autoClosingTags": false,
+   "symbols.hidesExplorerArrows": true
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "format.wrapAttributes": "auto",
+    "format.wrapLineLength": 0,
+    "autoClosingTags": false
   },
 
-  "editor.bracketPairColorization.enabled": false,
-  "color-highlight.markerType": "background",
-  "editor.colorDecorators": true
+  "[css]": {
+    "editor.bracketPairColorization.enabled": false,
+    "color-highlight.markerType": "background",
+    "editor.colorDecorators": true
+  },
+ 
 }
